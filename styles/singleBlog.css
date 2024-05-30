@@ -1,0 +1,273 @@
+
+/* navbar styling start */
+
+.navGroup {
+  /* padding-right: 7.5rem; */
+  font-size: 16px;
+  /* align-items: end; */
+  height: auto;
+}
+.navTitle {
+  font-size: 33.7px;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* padding-left: 7rem; */
+  /* margin-left: -1rem; */
+}
+.navItem {
+  padding-left: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.navSearch {
+  padding-top: 2rem;
+}
+.navButton {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 12px;
+  background: #7c4ee4;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+/* end */
+
+/* development section starts */
+.mainHeading {
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+.blockquote {
+  font-size: 24px;
+  font-style: italic;
+  color: #666666;
+}
+.fig-c {
+  font-size: 16px;
+  font-weight: bold;
+}
+.wrapper {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+.wrapperHeading h1 {
+  /* margin-left: -3rem; */
+  padding-top: 0.5rem;
+  line-height: 64px;
+  font-size: 48px;
+  font-weight: bold;
+}
+.imgVr {
+  padding-bottom: 4rem;
+}
+.belowVr {
+  /* width: 85%; */
+  font-size: 16px;
+  /* padding-left: 12rem; */
+}
+.afterQuote {
+  /* padding-left: 12rem; */
+  font-size: 16px;
+  padding-bottom: 3rem;
+}
+.afterImg {
+  /* width: 90%;  */
+  font-size: 16px;
+  /* padding-bottom: 2rem; */
+  /* padding-left: 12rem; */
+}
+
+/* end */
+
+/* popular section  */
+.popularPost {
+  /* padding-top: 3rem; */
+  padding-bottom: 2rem;
+  /* padding-left: 10rem; */
+  /* padding-right: 0.8rem; */
+}
+.popularDiv {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  display: flex;
+  position: relative;
+  width: 100%;
+  /* margin-left: -2rem; */
+}
+.myPopularCard .card-body {
+  padding: 1rem 0;
+}
+
+.popularHeader {
+  padding-top: 1rem;
+  /* margin-left: 1rem; */
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+.popularAnchor {
+  color: #7c4ee4;
+}
+.popularHeading {
+  text-align: left;
+  font-size: 48px;
+  font-weight: bold;
+}
+.popularButton {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  background: #7c4ee4;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+.myPopularCard .card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.myPopularCard .card-text {
+  font-size: 16px;
+}
+/* end  */
+
+/* footer section  */
+.upperFooter {
+  background-color: #7c4ee4;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+.footerButton {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 18px;
+  background: #7c4ee4;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+}
+.footerUpperHeading {
+  color: #ffffff;
+  font-size: 52px;
+  font-weight: bold;
+}
+.footerP {
+  color: #bbbbbb;
+  font-size: 16px;
+}
+.input-group {
+  max-width: 400px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.input-group .footerButton {
+  margin-left: 20px;
+}
+.footerPlaceHolder {
+  border: none;
+}
+.footerForm {
+  margin-left: 4rem;
+}
+.lowerFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f8f9fa; /* Adjust background color as needed */
+}
+.lowerFooterName {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between the logo and the heading */
+  margin-bottom: 30px;
+}
+.footerMenu {
+  list-style: none;
+  display: flex;
+  font-size: 16px;
+  gap: 3rem;
+}
+.footerMenu li {
+  font-size: 16px; /* Adjust font size as needed */
+}
+.footerLink {
+  color: inherit;
+  text-decoration: none;
+}
+.footerH {
+  font-size: 33.7px;
+  font-weight: bolder;
+}
+.copyrightContainer {
+  text-align: center;
+  /* padding-bottom: 1rem; */
+  font-size: 16px;
+}
+.custom-line {
+  width: 81%;
+  margin: 0 auto;
+  border-bottom: 2px solid #7c4ee4;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* end */
+
+/* footer Responsive adjustments */
+@media (max-width: 480px) {
+  .footerUpperHeading {
+    font-size: 36px;
+  }
+
+  .input-group {
+    max-width: 100%;
+  }
+
+  .footerForm {
+    margin-left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footerMenu {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .footerMenu li {
+    font-size: 14px;
+  }
+}
+/* end  */
+@media (max-width: 480px) {
+
+  .container,
+  .row,
+  .col-md-4,
+  .card,
+  .card-body {
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 390px;
+  }
+  .img-fluid {
+    max-width: 390px;
+  }
+  .popularHeading {
+    font-size: 32px;
+  }
+}

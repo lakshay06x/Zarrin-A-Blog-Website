@@ -1,0 +1,422 @@
+/* navbar styling start */
+.navGroup {
+  /* padding-right: 7.5rem; */
+  font-size: 16px;
+  /* align-items: end; */
+  height: auto;
+}
+.navTitle {
+  font-size: 33.7px;
+  font-weight: bolder;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* padding-left: 7rem; */
+  /* margin-left: -1rem; */
+}
+.navItem {
+  padding-left: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.navSearch {
+  padding-top: 2rem;
+}
+.navButton {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 12px;
+  background: #7c4ee4;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+/* end */
+
+/* Ai section styling */
+.aiHeading {
+  font-weight: bold;
+  font-size: 64px;
+}
+.aiGroup {
+  padding-top: 80px;
+}
+.aiDiv {
+  padding: 100px 0;
+  background-color: #7c4ee4;
+  color: #ffffff;
+  height: auto;
+}
+.lead {
+  font-size: 16px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.aiButton {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #000000;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+/* end */
+
+/* Vr section styling */
+.vrDiv {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.vrImg {
+  display: block;
+  /* max-width: 100%; */
+  /* width: 100%; */
+  /* padding-left: 9rem; */
+  /* padding-top: 7rem; */
+}
+.vrHeader {
+  padding-top: 2rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+
+.vrCardTitleFont {
+  font-size: 32px;
+  font-weight: bold;
+}
+.vrCardTextFont {
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .vrDiv {
+    padding-bottom: 250px;
+    position: relative;
+  }
+  .vrCard {
+    position: absolute;
+    bottom: 10%;
+    right: 0;
+    transform: translateY(50%);
+    width: 60%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* margin-top: -51px; */
+  }
+}
+
+.vrCard .card-title {
+  font-size: 32px;
+  /* margin-right: 4rem; */
+  /* padding-left: 2rem; */
+}
+.vrCard .card-text {
+  padding-bottom: 1rem;
+  /* margin-right: 4rem; */
+  /* padding-left: 2rem; */
+}
+.vrButton {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #7c4ee4;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  border: solid #7c4ee4 2px;
+  text-decoration: none;
+  /* margin-left: 2rem; */
+}
+/* end */
+
+/* recent post section styling */
+.recentBelowSection {
+  padding-top: 2rem;
+}
+.recentHeading {
+  text-align: left;
+  font-size: 48px;
+  font-weight: bold;
+}
+.recentButton {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  background: #7c4ee4;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  /* position: absolute; */
+  /* right: 6rem; */
+}
+
+.HorizontalCardButton {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #7c4ee4;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  border: solid #7c4ee4 2px;
+  text-decoration: none;
+}
+.horizontalHeader {
+  padding-top: 2rem;
+  margin-left: 1.1rem;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.recentHeadingFont {
+  font-size: 32px;
+  font-weight: bold;
+}
+.recentTextFont {
+  font-size: 16px;
+}
+.horizontalCard {
+  width: 100%;
+  /* margin-left: -2rem; */
+}
+.horizontalCard .card-title {
+  font-size: 32px;
+}
+.horizontalCard .card-text {
+  font-size: 16px;
+}
+.myRecentCard .card-body {
+  padding: 1rem 0;
+}
+.recentHeader {
+  padding-top: 1rem;
+  /* margin-left: 1rem; */
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+.recentAnchor {
+  color: #7c4ee4;
+}
+.recentCardHeading {
+  font-size: 24px;
+  font-weight: bold;
+  /* margin: 0; */
+}
+.recentCardText {
+  font-size: 16px;
+}
+/* end */
+/* popular section  */
+
+.popularDiv {
+  padding-bottom: 3rem;
+  display: flex;
+  position: relative;
+  width: 100%;
+  /* margin-left: -2rem; */
+}
+.myPopularCard .card-body {
+  padding: 1rem 0;
+}
+
+.popularHeader {
+  padding-top: 1rem;
+  /* margin-left: 1rem; */
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+}
+.popularAnchor {
+  color: #7c4ee4;
+}
+.popularHeading {
+  text-align: left;
+  font-size: 48px;
+  font-weight: bold;
+}
+.popularButton {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  background: #7c4ee4;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+.myPopularCard .card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+.myPopularCard .card-text {
+  font-size: 16px;
+}
+/* end  */
+/* footer section  */
+.upperFooter {
+  background-color: #7c4ee4;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+.footerButton {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 18px;
+  background: #7c4ee4;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 2px;
+  text-decoration: none;
+}
+.footerUpperHeading {
+  color: #ffffff;
+  font-size: 52px;
+  font-weight: bold;
+}
+.footerP {
+  color: #bbbbbb;
+  font-size: 16px;
+}
+.input-group {
+  max-width: 400px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.input-group .footerButton {
+  margin-left: 20px;
+}
+.footerPlaceHolder {
+  border: none;
+}
+.footerForm {
+  margin-left: 4rem;
+}
+.lowerFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f8f9fa; /* Adjust background color as needed */
+}
+.lowerFooterName {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between the logo and the heading */
+  margin-bottom: 30px;
+}
+.footerMenu {
+  list-style: none;
+  display: flex;
+  font-size: 16px;
+  gap: 3rem;
+}
+.footerMenu li {
+  font-size: 16px; /* Adjust font size as needed */
+}
+.footerLink {
+  color: inherit;
+  text-decoration: none;
+}
+.footerH {
+  font-size: 33.7px;
+  font-weight: bolder;
+}
+.copyrightContainer {
+  text-align: center;
+  /* padding-bottom: 1rem; */
+  font-size: 16px;
+}
+.custom-line {
+  width: 81%;
+  margin: 0 auto;
+  border-bottom: 2px solid #7c4ee4;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* end */
+
+/* footer Responsive adjustments */
+@media (max-width: 480px) {
+  .footerUpperHeading {
+    font-size: 36px;
+  }
+
+  .input-group {
+    max-width: 100%;
+  }
+
+  .footerForm {
+    margin-left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footerMenu {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .footerMenu li {
+    font-size: 14px;
+    margin-left: -2rem;
+  }
+}
+/* end  */
+
+/* Media Queries for main page*/
+
+@media (max-width: 480px) {
+  .desktop-only {
+    display: none;
+  }
+  
+
+  .container,
+  .row,
+  .col-md-4,
+  .card,
+  .card-body {
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 390px;
+  }
+  .img-fluid {
+    max-width: 390px;
+  }
+
+  .vrCard {
+    position: static;
+    transform: none;
+    width: 100%;
+  }
+  .recentHeading,
+  .popularHeading {
+    font-size: 32px;
+  }
+  .recentButton {
+    margin-top: -5rem;
+  }
+  .popularButton {
+    margin-top: -0.5rem;
+  }
+  .aiButton {
+    margin-bottom: 2rem;
+  }
+  .aiHeading {
+    margin-top: -5rem;
+  }
+}
+/* end  */
